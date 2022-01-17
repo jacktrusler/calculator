@@ -17,7 +17,7 @@
     display: flex; 
     flex-flow: row wrap; 
     width: 400px;
-    height: 500px;
+    height: 600px;
     border: solid rgb(44, 43, 43);
     border-radius: 10px;
     box-shadow: 5px 5px 30px;
@@ -54,10 +54,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
     background-color: lightgrey;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-radius: 5px;
+}
+
+.a-button:hover {
+    background-color:rgb(187, 116, 116);
+    background-blend-mode: screen;
 }
 
 .operator {
